@@ -1,0 +1,133 @@
+
+.project {
+    margin: 50px auto;
+    padding: 15px;
+    width: 300px;
+}
+
+.comment {
+    border-radius: 5px;
+    background-color: #444;
+    padding: 5px 15px;
+}
+
+.comment__message {
+    color: #fff;
+    text-align: center;
+}
+
+.arrow {
+    display: block;
+    content: "";
+    width: 0;
+    height: 0;
+    border: 10px solid #444;
+    transform: translateX(230px) rotate(45deg) translateY(-22px) skew(15deg, 15deg);
+}
+
+.progress-bar {
+    background-color: #eee;
+    border: 1px solid #bbb;
+    width: 300px;
+    height: 12px;
+    box-sizing: border-box;
+    border-bottom: transparent;
+}
+
+.progress-bar__fill {
+    top: 0;
+    left: 0;
+    height: inherit;
+    width: 70%;
+    background-color: #f56;
+}
+
+.box {
+    width: 300px;
+    padding: 5 10px;
+    border: 1px solid #bbb;
+    box-sizing: border-box;
+    text-align: center;
+    border-bottom: 3px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.box__text {
+    color: #999;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+    line-height: 25px;
+}
+
+.box__text--highlight {
+    color: #f56;
+    font-weight: 600;
+}
+
+.box__form {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin: 0px auto 15px auto;
+}
+
+.form__label {
+    position: absolute;
+    transform: translateX(10px) translateY(10px);
+    font-size: 28px;
+    color: #999;
+}
+
+.box__form form {
+    padding-left: 0;
+    text-align: start;
+}
+
+.form__input {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 24px;
+    padding-left: 30px;
+    border-radius: 3px;
+    border-style: none;
+    border: 1px solid #bbb;
+    box-sizing: border-box;
+    width: 110px;
+}
+
+.form__button {
+    width: 110px;
+    background-color: #2b4;
+    border-style: none;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 3px;
+}
+
+.box__link {
+    text-decoration: none;
+    color: #05d;
+    text-align: left;
+    padding-bottom: 15px;
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons__button {
+    font-size: 16px;
+    width: 47%;
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid #bbb;
+    border-radius: 3px;
+    color: #777;
+    border-bottom: 3px solid #ccc;
+}
